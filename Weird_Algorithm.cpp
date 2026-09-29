@@ -8,6 +8,8 @@ int main()
 
     cin>>numero;
 
+    cout<< numero <<" ";
+
     while (numero > 1)
     {
         if (numero%2 == 0)
@@ -19,7 +21,7 @@ int main()
             numero+=1;
         }
         
-        cout << numero <<" ";
+        cout<< numero <<" ";
     }
     
     return 0;
